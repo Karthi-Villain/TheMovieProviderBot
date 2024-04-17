@@ -4,7 +4,7 @@ then
   git clone https://github.com/HarshalPurohitEdits/TheMovieProviderBot.git TheMovieProviderBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /TheMovieProviderBot
+  git clone $UPSTREAM_REPO TheMovieProviderBot
 fi
 ls
 cd TheMovieProviderBot
